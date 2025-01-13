@@ -1,0 +1,260 @@
+@media (max-width: 85em) {
+  .hero-container {
+    max-width: 120rem;
+  }
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+  .gallary {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .secondary-heading {
+    font-size: 3.5rem;
+  }
+  .heading-teritary {
+    font-size: 2.6rem;
+  }
+  .grid {
+    column-gap: 5rem;
+    row-gap: 6.4rem;
+  }
+  .hero-container {
+    gap: 5rem;
+  }
+  .main-nav {
+    gap: 3.2rem;
+  }
+  .testimonila-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+@media (max-width: 58.75em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 6.2rem;
+  }
+
+  .hero-image {
+    width: 60%;
+  }
+  .text-hero,
+  .hero-image-box {
+    text-align: center;
+    padding: 0 8rem;
+  }
+  .hero-image-box {
+    /* padding: 6.4rem 0; */
+  }
+  .deliverd-meals {
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .logos img {
+    height: 2.5rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+  .meal-content {
+    padding: 2.2rem 3.8rem 3.8rem 3.8rem;
+  }
+  .section-testimonial {
+    grid-template-columns: 1fr;
+  }
+  .gallary {
+    grid-template-columns: repeat(6, 6fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+  .diets h3 {
+    font-size: 3rem;
+  }
+  /* MObile NAvigation */
+
+  /* ************************** */
+
+  .mobile-nav {
+    display: block;
+    z-index: 99999;
+  }
+
+  .nav {
+    /* background-color: rgba(255 255 255 0.97); */
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+
+    opacity: 0%;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+  .open-nav .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .open-nav .mobile-icon[name="close-outline"] {
+    display: block;
+    transition: all 0.5s ease-in-out;
+  }
+  .open-nav .mobile-icon[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .nav-link:hover,
+  .nav-link:active {
+    color: #e67e22;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 53.5em) {
+  .grid--3-colmn {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .diets h3 {
+    font-size: 3.3rem;
+  }
+  .grid--4-colmn {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+  .secondary-heading {
+    margin-bottom: 4.8rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #ccc;
+    padding: 2.4rem;
+    border-radius: 11px;
+    /* grid-template-rows: 1fr 1fr; */
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+}
+
+/* @media (max-width: 42.75em) {
+  .pricing--plan-complete {
+    padding: 4rem 2rem;
+  }
+} */
+
+@media (max-width: 38.75em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-colmn,
+  .grid--3-colmn,
+  .grid--4-colmn {
+    grid-template-columns: 1fr;
+  }
+  .hero-image {
+    width: 80%;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+  .section-hero {
+    padding: 2.8rem 0 6.4rem 0;
+  }
+  .hero-container {
+    padding: 0 0.9rem;
+  }
+  .text-hero,
+  .hero-image-box {
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .logos img {
+    height: 1.6rem;
+  }
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallary {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    grid-row: 1;
+    height: 32rem;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+}
