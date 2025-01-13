@@ -13,8 +13,8 @@ Customizable Styling: Modular and reusable CSS components.
 Dynamic Forms: User-friendly forms for sign-up and feedback.
 Integrated Icons: Stylish icons for enhanced visual appeal.
 Technologies Used
-HTML5: Markup language for the structure of the website.
-CSS3: Includes general styling (genral.css) and specific styles (style.css).
+HTML: Markup language for the structure of the website.
+CSS: Includes general styling (genral.css) and specific styles (style.css).
 JavaScript: Placeholder for dynamic interactions (future enhancement).
 Google Fonts: Integrated for typography customization.
 Ionicons: Modern and scalable icons for visual appeal.
