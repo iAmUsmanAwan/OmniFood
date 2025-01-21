@@ -235,12 +235,14 @@ body {
 }
 .logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Space between logos */
 }
 .logos img {
-  height: 3.2rem;
-  filter: brightness(0%);
-  opacity: 50%;
+  height: 8rem;
+  filter: grayscale(100%); /* Optional: Grayscale effect */
+  opacity: 100%;
 }
 /**************************************/
 /*********How-section ********/

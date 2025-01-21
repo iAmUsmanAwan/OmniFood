@@ -63,7 +63,7 @@
     margin-top: 4rem;
   }
   .logos img {
-    height: 2.5rem;
+    height: 5rem;
   }
   .step-number {
     font-size: 7.4rem;
@@ -226,7 +226,7 @@
     padding: 0 2rem;
   }
   .logos img {
-    height: 1.6rem;
+    height: 5.6rem;
   }
   .step-img-box:nth-child(2) {
     grid-row: 1;
@@ -256,5 +256,34 @@
 
   .cta-text-box {
     padding: 3.2rem;
+  }
+}
+
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Space between text and image */
+}
+
+.cta-text-box {
+  flex: 1; /* Take up remaining space */
+}
+
+.cta-img-box {
+  flex: 1; /* Take up remaining space */
+  text-align: center; /* Center the image */
+}
+
+.cta-img {
+  max-width: 80%; /* Reduce the image size to 80% of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cta-img {
+    max-width: 60%; /* Further reduce the image size on smaller screens */
   }
 }
